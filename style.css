@@ -1,0 +1,108 @@
+body{
+ color: #555;
+ margin: 0px;
+}
+#Header{
+  background-color: #1abc9c;
+  height: 150px;
+  line-height: 150px;
+}
+#Header-title{
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#Header-nav{
+  display: block;
+  float: right;
+
+}
+#Header-nav li{
+  display: inline;
+  padding-left: 25px;
+  margin-top: 0;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#Header a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#Header a:hover{
+  color: #222;
+}
+#Footer{
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+.Column{
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+#Footer h4{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#Footer p{
+  color: white;
+}
+.Column a{
+  text-decoration: none;
+  color: #1abc9c;
+}
+a:hover{
+  color: #f6a623;
+}
+.post-author img{
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+.post, .about{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+h1, h2, h3, h4{
+  color: #333;
+}
+p{
+  line-height: 1.5;
+}
+.post-date{
+  color: #d2d2d2;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.about-author img{
+  width: 400px;
+  height: 400px;
+}
+#content{
+  padding: 50px;
+}
+.about-title h1{
+  line-height: 0.5em;
+}
+.about-content p{
+  line-height: 0.7em;
+}
+.about{
+  text-align: center;
+}
+.post-author img, .about-author img{
+  border-radius: 50%;
+}
+.post-content:nth-child(even) {
+  background-color: #f2f2f2;
+}
